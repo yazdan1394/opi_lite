@@ -1,0 +1,26 @@
+sudo apt update
+sudo apt-get install idle3
+sudo apt install python3-pip
+pip install virtualenv
+pip install SpeechRecognition
+sudo apt-get install portaudio19-dev
+sudo apt install python3-pyaudio
+pip freeze > requirements.txt
+sudo apt-get install flac
+sudo pip install arabic-reshaper
+pip install python-bidi
+pip install OPi.GPIO
+sudo apt install -y python3-opencv
+sudo apt install -y fswebcam
+pip install python-vlc
+pip install persianttsfarsi
+pip install --upgrade setuptools wheel
+python -m pip install --upgrade pip setuptools wheel
+pip install python-core
+pip install "cython<3.0.0" && pip install --no-build-isolation pyyaml==5.4.1
+sudo apt install libatlas-base-dev
+pip install face-recognation==0.1.1
+
+
+
+https://github.com/yazdan1394/opi_lite.git
