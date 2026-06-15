@@ -1,26 +1,65 @@
 sudo apt update
 sudo apt-get install idle3
+sudo apt install ipython3
 sudo apt install python3-pip
-pip install virtualenv
-pip install SpeechRecognition
+sudo apt install python-pip
+sudo pip3 install virtualenv
+sudo apt install virtualenv
+sudo apt install python3-venv
+_ sudo pip3 install SpeechRecognition
 sudo apt-get install portaudio19-dev
 sudo apt install python3-pyaudio
 pip freeze > requirements.txt
 sudo apt-get install flac
-sudo pip install arabic-reshaper
-pip install python-bidi
-pip install OPi.GPIO
-sudo apt install -y python3-opencv
-sudo apt install -y fswebcam
-pip install python-vlc
-pip install persianttsfarsi
-pip install --upgrade setuptools wheel
-python -m pip install --upgrade pip setuptools wheel
-pip install python-core
-pip install "cython<3.0.0" && pip install --no-build-isolation pyyaml==5.4.1
-sudo apt install libatlas-base-dev
-pip install face-recognation==0.1.1
+_ sudo pip3 install arabic-reshaper
+_ sudo pip3 install python-bidi
+--sudo pip3 install OPi.GPIO
+--sudo apt install -y python3-opencv
+--sudo apt install -y fswebcam
+sudo apt install -y filezilla
+_ sudo pip3 install python-vlc
+_ sudo pip3 install persianttsfarsi
+ sudo pip3 install --upgrade setuptools wheel
+_ sudo python -m pip install --upgrade pip setuptools wheel
+ sudo pip3 install python-core
+ sudo pip3 install "cython<3.0.0" && pip3 install --no-build-isolation pyyaml==5.4.1
+ sudo apt install libatlas-base-dev
+ sudo pip3 install face-recognation
+sudo apt install nginx
+sudo apt install -y x11vnc
+sudo apt install -y git
+sudo apt-get install vnc4server
+https://package-mirror.liara.ir/repository/pypi/packages/python-csv/0.0.14/python_csv-0.0.14-py3-none-any.whl
 
+# Source - https://stackoverflow.com/a/76068093
+# Posted by radeklat, modified by community. See post 'Timeline' for change history
+# Retrieved 2026-06-05, License - CC BY-SA 4.0
 
+pip fault:
+source new-env/bin/activate
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+rm get-pip.py
+sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 
+export PIP_INDEX_URL=https://package-mirror.liara.ir/repository/pypi/simple
+# for windows:
+# setx PIP_INDEX_URL "https://package-mirror.liara.ir/repository/pypi/simple"
+
+https://www.piwheels.org/simple/python-vlc/python_vlc-3.0.20123-py3-none-any.whl#sha256=a53decdb0ee24999ecbbe79d5fbf0b24145784275bcbf5a2f72c6cffa4d65ac1
 https://github.com/yazdan1394/opi_lite.git
+
+https://deb.nodesource.com/setup_11.x | bash -
+sudo apt-get install -y nodejs
+
+git clone https://github.com/node-red/linux-installers.git
+cd linux-installers/pibuild
+
+node-red-pi --max-old-space-size=256
+sudo apt-get install audio-recorder
+sudo apt-get install pavucontrol
+
+tar -cvaf /path/to/chosen/directory/etc-backup.tar.xz /etc
+sudoedit /etc/default/locale
+
+https://archive1.piwheels.org/simple/pyttsx3/pyttsx3-2.92-py3-none-any.whl#sha256=8f31b8bba954db2773e2def5aa67c4354e6b0e769adc2992a269b7cdc8058632
