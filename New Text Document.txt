@@ -28,6 +28,7 @@ _ sudo python -m pip install --upgrade pip setuptools wheel
 sudo apt install nginx
 sudo apt install -y x11vnc
 sudo apt install -y git
+pip install pocketsphinx
 sudo apt-get install vnc4server
 https://package-mirror.liara.ir/repository/pypi/packages/python-csv/0.0.14/python_csv-0.0.14-py3-none-any.whl
 
